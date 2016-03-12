@@ -6,8 +6,23 @@
  */
 
 /* sections */
-#resume { 
+#resume {
+	background: #fff;
+	margin: 0 auto;
+	width: 980px;
+	padding: 0 30px;
 	margin-bottom: 25px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.2);
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+#resume:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
 }
 #pic {
 	float: right; margin: -40px 20px 0 0;
@@ -15,15 +30,6 @@
 #resume-body { 
 	width: 100%;
 }
-
-
-/* could probably remove, for WordPress WYSIWYG editor */
-#resume-body p { 
-	display: none;
-}
-/* could probably remove, for WordPress WYSIWYG editor */
-
-
 #left, #middle, #right { 
 	display: block;
 	float: left;
