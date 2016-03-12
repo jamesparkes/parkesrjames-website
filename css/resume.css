@@ -1,0 +1,225 @@
+/*
+ * resume.css
+ *
+ * Last updated on March 12, 2016
+ * Designed and built by and for James Parkes
+ */
+
+/* sections */
+#resume { 
+	margin-bottom: 25px;
+}
+#pic {
+	float: right; margin: -40px 20px 0 0;
+}
+#resume-body { 
+	width: 100%;
+}
+
+
+/* could probably remove, for WordPress WYSIWYG editor */
+#resume-body p { 
+	display: none;
+}
+/* could probably remove, for WordPress WYSIWYG editor */
+
+
+#left, #middle, #right { 
+	display: block;
+	float: left;
+}
+#left { width: 60%; }
+#middle { width: 5%; }
+#right { width: 35%; }
+
+/* helper classes */
+.first { padding-top: 10px; }
+.last { padding-bottom: 0; }
+
+/* main */
+.resume {
+	font: 12px Helvetica, Sans-Serif;
+	line-height: 16px;
+}
+.resume-name { 
+	margin: 0 0 5px 0;
+	padding: 0 0 5px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	line-height: 24px;
+	border-bottom: 1px solid #999;
+}
+.resume-specialties {
+	margin: 10px 0;
+}
+.pdf, .resume-pdf, .resume-tel, .resume-email {
+	font-weight: bold;
+}
+.resume-objective {
+	width: 60%;
+}
+.resume-category {
+	font-size: 16px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 5px;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.resume-table { 
+	padding-left: 15px;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+.resume-table tr { 
+	width: 100%; 
+}
+.resume-table td { 
+	padding-bottom: 15px; 
+}
+.resume-blip { 
+	position: relative;
+	width: 16px; 
+	top: 4px;
+	left: -23px;
+}
+.resume-blip-end {
+	position: relative;
+	width: 16px;
+	top: 0px;
+	left: -7px;
+}
+
+/* experience, education, projects */
+.resume-time {
+	width: 25%;
+}
+.resume-dates {
+	position: relative;
+	left: -10px;
+}
+.resume-description {
+	width: 75%;
+}
+.resume-school a, .resume-company a {
+	color: #AC2020;
+}
+.resume-school a:hover, .resume-company a:hover {
+	color: #999;
+}
+.resume-school, .resume-focus, .resume-company, .resume-position {
+	margin: 0;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+}
+
+
+.wp-image-165 { width: 25%; }
+.wp-image-166 { width: 28%; }
+.wp-image-167 { width: 38%; }
+.wp-image-181 { width: 18%; }
+.wp-image-185 { width: 25%; }
+.wp-image-186 { width: 45%; }
+.wp-image-192 { width: 36%; }
+.wp-image-198 { width: 27%; }
+.wp-image-200 { width: 30%; margin: 0; }
+
+
+/* skills */
+.grade {
+	padding-bottom: 16px;
+}
+.new-section {
+	padding-top: 20px;
+}
+.resume-skill {
+	width: 50%;
+	font-weight: bold;
+	color: #000;
+	height: 22px;
+	line-height: 22px;
+}
+.resume-rating {
+	width: 50%;
+	position: relative;
+	height: 22px;
+}
+.rating {
+	position: absolute;
+	bottom: 3px;
+	width: 152px;
+	height: 16px;
+	display: block;
+	background: url(../images/ratings.png) 0 0 no-repeat;
+}
+.rating-1 { background-position: -133px 0; }
+.rating-2 { background-position: -114px 0; }
+.rating-3 { background-position: -95px 0; }
+.rating-4 { background-position: -76px 0; }
+.rating-5 { background-position: -57px 0; }
+.rating-6 { background-position: -38px 0; }
+.rating-7 { background-position: -19px 0; }
+.rating-8 { background-position: 0 0; }
+
+@media only screen and (max-width: 959px) {
+	#pic {
+		margin: -40px 0 0 0;
+	}
+	.alignleft {
+		margin: 10px 20px 20px 0px;
+	}
+	.alignright {
+		margin: 10px 0px 20px 20px;
+	}
+	.resume-blip, .resume-blip-end {
+		display: none;
+	}
+	.resume-time {
+		width: 32%;
+	}
+	.resume-dates {
+		left: 0;
+	}
+	.resume-description {
+		width: 68%;
+	}
+	.resume-table {
+		border-left: 0;
+	}
+
+	/* hide images at smaller res */
+	.wp-image-165, .wp-image-166, .wp-image-167, .wp-image-181, .wp-image-185, .wp-image-186, .wp-image-192, .wp-image-198, .wp-image-200, .wp-image-364, .wp-image-365 { display: none; }
+
+}
+
+@media only screen and (max-width: 767px) {
+	#pic {
+		display: none;
+	}
+	#left, #right, .resume-objective {
+		width: 100%;
+	}
+	#middle {
+		display: none;
+	}
+	.resume-table {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.alignleft, .alignright {
+		margin: 10px 0 25px 0;
+	}
+	.resume-name {
+		font-size: 32px;
+	}
+	.resume-time {
+		display: none;
+	}
+	.resume-description {
+		width: 100%;
+	}
+}
