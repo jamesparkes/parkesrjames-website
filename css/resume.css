@@ -152,7 +152,7 @@
 	width: 152px;
 	height: 16px;
 	display: block;
-	background: url(../images/ratings.png) 0 0 no-repeat;
+	background: url(../img/ratings.png) 0 0 no-repeat;
 }
 .rating-1 { background-position: -133px 0; }
 .rating-2 { background-position: -114px 0; }
