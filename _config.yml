@@ -1,0 +1,14 @@
+title: James Parkes
+email: parkesrjames@gmail.com
+description: Developer. Designer. Director.
+url: http://jamesparkes.github.io
+github_username: jamesparkes
+
+# Build settings
+date_format: "%Y-%m-%d"
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+google_analytics: UA-75053217-1
