@@ -5,15 +5,23 @@
  * Designed and built by and for James Parkes
  */
 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
 body {
 	font-size: 13px;
 	line-height: 1.7em;
 	color: #555;
 	font-family: 'Droid Serif', Arial, Helvetica, sans-serif;
 	background: url(../img/bg.png);
-}
-header {
-	padding-top: 30px;
 }
 a {
 	text-decoration: none;
@@ -27,6 +35,7 @@ i {
 ul {
 	list-style-type: none;
 	padding: 0;
+	margin: 0;
 }
 
 /* sections */
@@ -34,7 +43,7 @@ ul {
 	background: #fff;
 	margin: 30px auto;
 	width: 980px;
-	padding: 0 30px;
+	padding: 25px 30px;
 	margin-bottom: 25px;
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,.2);
@@ -82,13 +91,14 @@ ul {
 	color: #000;
 }
 .resume-specialties {
-	margin: 10px 0;
+	margin: 0 0 1em;
 }
 .pdf, .resume-pdf, .resume-tel, .resume-email {
 	font-weight: bold;
 }
 .resume-objective {
 	width: 60%;
+	margin: 10px 0;
 }
 .resume-category {
 	font-size: 16px;
@@ -125,13 +135,24 @@ ul {
 /* experience, education, projects */
 .resume-time {
 	width: 25%;
+	vertical-align: top;
 }
 .resume-dates {
 	position: relative;
 	left: -10px;
+	top: -3px;
 }
 .resume-description {
-	width: 75%;
+	width: 50%;
+}
+.resume-icon {
+	width: 25%;
+	vertical-align: top;
+	text-align: right;
+}
+.resume-icon img {
+	width: 100%;
+	height: auto;
 }
 .resume-school a, .resume-company a {
 	color: #AC2020;
@@ -145,18 +166,6 @@ ul {
 	line-height: 16px;
 	font-weight: bold;
 }
-
-
-.wp-image-165 { width: 25%; }
-.wp-image-166 { width: 28%; }
-.wp-image-167 { width: 38%; }
-.wp-image-181 { width: 18%; }
-.wp-image-185 { width: 25%; }
-.wp-image-186 { width: 45%; }
-.wp-image-192 { width: 36%; }
-.wp-image-198 { width: 27%; }
-.wp-image-200 { width: 30%; margin: 0; }
-
 
 /* skills */
 .grade {
@@ -199,9 +208,6 @@ ul {
 }
 
 @media only screen and (max-width: 959px) {
-	#resume {
-		width: 680px;
-	}
 	#pic {
 		margin: -40px 0 0 0;
 	}
@@ -227,15 +233,17 @@ ul {
 		border-left: 0;
 	}
 
-	/* hide images at smaller res */
-	.wp-image-165, .wp-image-166, .wp-image-167, .wp-image-181, .wp-image-185, .wp-image-186, .wp-image-192, .wp-image-198, .wp-image-200, .wp-image-364, .wp-image-365 { display: none; }
+	.resume-icon { display: none; }
 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 959px) and (min-width: 768px) {
 	#resume {
-		width: 420;
+		width: 680px;
 	}
+}
+
+@media only screen and (max-width: 767px) {
 	#pic {
 		display: none;
 	}
@@ -247,6 +255,12 @@ ul {
 	}
 	.resume-table {
 		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	#resume {
+		width: 420px;
 	}
 }
 
