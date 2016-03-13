@@ -7,7 +7,8 @@ tags: change, growth, professional, wisdom, workplace
 
 The majority of people are intimidated by change. Why? Because change challenges us to do something different; it forces us out of our comfort zone.
 
-change ahead image!
+catuoin image!
+
 > Caution: Change ahead, brace yourself.
 
 There’s an expression in sports, “it’s not how you play at home, it’s how you play on the road.” For the sake of this expression, let’s assume we’re talking about baseball. What the expression is saying is that it is easy to play in the comfort of your own baseball stadium; however, what happens when you go on the road? On the road you’ll be faced with challenges like the long backstop at Dodger Stadium, the Green Monster at Fenway Park, or center field at Minute Maid Park? These are all obstacles that you aren’t normally faced with at your own baseball stadium. Therefore, playing well on the road is all predicated on how well you can adapt to change. The same is true for working in a corporate environment. Companies are constantly changing ideologies, and workflows. You have to be able to quickly adapt to the changes. Today, I want to share with you some of my thoughts on change and navigating the professional workplace.
@@ -19,6 +20,7 @@ Face it, the world is constantly changing. This week’s piece of technology is 
 In most cases, people are unwilling to makes changes in their current workflow because they’re convinced it will take them too long to learn or they’re convinced their way of doing things is easier. However, as much as we don’t like to admit it, change can expose us to new things, help us grow professionally, and teach us how to do things better. Don’t be the person that is unwilling to try something different. If you aren’t willing to embrace change, then change will blow right past you and you will get left behind.
 
 personal-growth image!
+
 > In order to grow professionally, you must always be open to change.
 
 ## It’s All About Exposure
