@@ -1,0 +1,10 @@
+---
+layout: default
+title: page.title
+---
+
+<article>
+    <h1>{{ page.title }}</h2>
+    <p>{{ page.date | date: site.date_format }}</p>
+    {{ content }}
+</article>
